@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background: #fff;
+}
+.hero {
+  margin-top: 60px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1086px;
+}
+.solar {
+  display: flex;
+  column-gap: 33px;
+  padding: 20px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.solar-text h2 {
+  color: #284b80;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 24px;
+}
+.solar-text p {
+  color: #8d98aa;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  width: 541px;
+  font-weight: 300;
+  line-height: 140%;
+  margin-bottom: 55px;
+}
+.ajay {
+  display: flex;
+  column-gap: 24px;
+}
+.ajay-text {
+  width: 406px;
+}
+.ajay img {
+  width: 63px;
+  height: 63px;
+}
+.ajay-text h3 {
+  color: #284b80;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 3px;
+}
+.ajay-text p {
+  color: #8d98aa;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+  width: 290px;
+}
+.hero2 {
+  margin-top: 28px;
+}
+.Ajay-photos {
+  margin-top: 112px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 26px;
+}
+.ajay_foto {
+  width: 354px;
+
+  padding: 14px 14px 24px 14px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.ajay_foto h3 {
+  color: #284b80;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 8px 8px 8px 12px;
+  width: 326px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.kumar {
+  margin-top: 24px;
+  display: flex;
+  column-gap: 24px;
+}
+.kumar img {
+  width: 64px;
+  height: 64px;
+}
+.kumar h4 {
+  color: #284b80;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 3px;
+}
+.kumar p {
+  color: #8d98aa;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 140%;
+}
+.beach {
+  margin-top: 96px;
+  display: flex;
+  column-gap: 50px;
+}
+.beach-img {
+  width: 492px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.beach-text {
+  padding: 16px;
+}
+.beach-text-hero {
+  padding: 8px;
+  margin-bottom: 30px;
+}
+.beach-text h2 {
+  color: #6e7491;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.beach-address {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-top: 4px;
+}
+.beach-address h4 {
+  color: #7c8db0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.beach-div {
+  display: flex;
+  column-gap: 9px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.beach-views {
+  width: 225.5px;
+}
+.beach-views p {
+  color: #6d8493;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}
+.beach-views p + p {
+  color: #151d20;
+}
+.beach-a {
+  margin: 0 auto;
+  width: 364px;
+  height: 40px;
+  padding: 8px;
+  background: #2d9cdb;
+  text-align: center;
+  border-radius: 4px;
+}
+.beach-text a {
+  color: #fbfbfb;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+
+  text-decoration: none;
+}
+.sectin-multe {
+  margin-top: 100px;
+}
+.multe {
+  border-radius: 16px;
+  background: #f5f9ff;
+  display: flex;
+  width: 800px;
+  padding: 16px;
+  column-gap: 16px;
+  margin: 0 auto;
+}
+.cards {
+  margin: 0 auto;
+  display: flex;
+  column-gap: 16px;
+}
+.card {
+  text-align: center;
+  padding: 16px;
+  width: 245.3px;
+
+  border-radius: 16px;
+  border: 1px solid #5d5fef;
+  border: none;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.card-text h3 {
+  font-family: "Inter", sans-serif;
+  color: #414f58;
+
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+
+.card-address {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  padding: 0px 0px 13px 0px;
+}
+.card-address img {
+  margin-left: 53px;
+}
+.card-address h4 {
+  font-family: "Inter", sans-serif;
+  color: #c6cdd5;
+  font-size: 12px;
+  font-weight: 400;
+}
+.line {
+  width: 213.333px;
+  height: 1px;
+  background: #f1f1f1;
+}
+.card-bottom {
+  display: flex;
+  padding: 13px 0px 0px 0px;
+  justify-content: space-between;
+}
+.card-bottom-text {
+  width: 72px;
+}
+.card-bottom-text p {
+  font-family: "Inter", sans-serif;
+  color: #a7b5be;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+.card-bottom-text p + p {
+  font-family: "Inter", sans-serif;
+  color: #414f58;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.line2 {
+  width: 1px;
+  height: 46px;
+  background: #f1f1f1;
+}
+
+.list_card {
+  width: 504px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.list-foto {
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 8px;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+.space h3 {
+  color: #000;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.space a {
+  text-decoration: none;
+  color: #598ec2;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 32px;
+  border: 1px solid #598ec2;
+  padding: 8px 16px;
+}
+.list-text {
+  padding: 16px 16px 32px 16px;
+}
+.list-text h4 {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 4px;
+  margin-bottom: 21px;
+}
+.stars .fa-solid,
+.fa-regular {
+  width: 18px;
+  height: 18px;
+  color: #eac800;
+}
+.fa-regular {
+  margin-right: 12px;
+}
+
+.stars a {
+  text-decoration: none;
+  padding: 4px 16px;
+  background: #27ae60;
+  border-radius: 17px;
+
+  color: #eceff1;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.star-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.Capacity {
+  text-align: center;
+}
+.Capacity p {
+  color: #90a4ae;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+.Capacity p + p {
+  color: #607d8a;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 11px;
+}
+svg {
+  margin-right: 8px;
+}
+.Gurugram {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 160px;
+  margin-top: 60px;
+}
+
+.wedding-photos {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 38px;
+  margin-bottom: 100px;
+}
+
+.wedding-btm {
+  display: flex;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 16px 16px;
+  background: #fff;
+  gap: 14px;
+  padding: 16px;
+}
+.wedding-text {
+  width: 152px;
+}
+.wedding-text h3 {
+  color: #414f58;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.wedding-text p {
+  color: #6d8493;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+.wedding-icon {
+  background: #ffefeb;
+  width: 48px;
+  height: 48;
+  border-radius: 48px;
+}
+.wedding-icon img {
+  padding: 10px 12px;
+}
